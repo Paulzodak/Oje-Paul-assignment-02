@@ -19,10 +19,7 @@ function sumOfNumbers(arrayOfNumbers) {
       sum += arrayOfNumbers[i];
     }
   return sum;
-}
-const num = [2,3,4]
-console.log(sumOfNumbers(num))
-
+};
 /**
  * Challenge - 2
  * 
@@ -42,7 +39,7 @@ function countEvenNumbers(arrayOfNumbers) {
     }
   return sum
 }
-console.log(countEvenNumbers(num))
+
 
 /**
  * Challenge - 3
