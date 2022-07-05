@@ -20,7 +20,7 @@ function sumOfNumbers(arrayOfNumbers) {
     };
   return sum;
 };
-console.log(sumOfNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+assignment.sumOfNumbers = sumOfNumbers;
 /**
  * Challenge - 2
  * 
@@ -33,14 +33,14 @@ console.log(sumOfNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 function countEvenNumbers(arrayOfNumbers) {
   let sum = 0;
     for (i=0;i < arrayOfNumbers.length;i++){
-      if (arrayOfNumbers[i]%2 === 0) {
+      if (arrayOfNumbers[i] > 0 && arrayOfNumbers[i]%2 === 0) {
         sum += 1;
       }
       else{null}
     }
   return sum;
 };
-console.log(countEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+assignment.countEvenNumbers = countEvenNumbers;
 /**
  * Challenge - 3
  * 
