@@ -17,9 +17,10 @@ function sumOfNumbers(arrayOfNumbers) {
   let sum = 0;
     for (i = 0; i < arrayOfNumbers.length;i++){
       sum += arrayOfNumbers[i];
-    }
+    };
   return sum;
 };
+console.log(sumOfNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 /**
  * Challenge - 2
  * 
@@ -37,10 +38,9 @@ function countEvenNumbers(arrayOfNumbers) {
       }
       else{null}
     }
-  return sum
-}
-
-
+  return sum;
+};
+console.log(countEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 /**
  * Challenge - 3
  * 
